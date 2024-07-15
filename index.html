@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
+<meta charset="UTF-8">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+
+<link rel="stylesheet" href="css/master.css">
+
+<title>API Project</title>
+</head>
+
+<body>
+        <div class="text">
+            <h1 class="block-effect" style="--td: 1.2s">
+                <div class="block-reveal" style="--bc: #4040bf; --d: .1s">European</div>
+                <div class="block-reveal" style="--bc: #bf4060; --d: .5s">Weather</div>
+                <div class="block-reveal" style="--bc: #68b0f0; --d: .9s">Forecast</div>
+            </h1>
+        </div>
+        <div class="menu">
+            <select id="city">
+                <option lon="19.8190" lat="41.3275">Tirana, Albania</option>
+                <option lon="1.5211" lat="42.5063">Andorra la Vella, Andorra</option>
+                <option lon="44.51" lat="40.18">Yerevan, Armenia</option>
+                <option lon="16.373" lat="48.208">Vienna, Austria</option>
+                <option lon="49.8671" lat="40.4093">Baku, Azerbaijan</option>
+                <option lon="27.5674" lat="53.9045">Minsk, Belarus</option>
+                <option lon="4.3517" lat="50.8503">Brussels, Belgium</option>
+                <option lon="18.4131" lat="43.8563">Sarajevo, Bosnia and Herzegovina</option>
+                <option lon="23.3219" lat="42.6977">Sofia, Bulgaria</option>
+                <option lon="15.9819" lat="45.8150">Zagreb, Croatia</option>
+                <option lon="33.3823" lat="35.1856">Nicosia, Cyprus</option>
+                <option lon="14.4378" lat="50.0755">Prague, Czech Republic</option>
+                <option lon="12.5683" lat="55.6761">Copenhagen, Denmark</option>
+                <option lon="24.7535" lat="59.4370">Tallinn, Estonia</option>
+                <option lon="24.9410" lat="60.1695">Helsinki, Finland</option>
+                <option lon="2.3522" lat="48.8566">Paris, France</option>
+                <option lon="44.7930" lat="41.7151">Tbilisi, Georgia</option>
+                <option lon="13.4050" lat="52.5200">Berlin, Germany</option>
+                <option lon="23.7275" lat="37.9838">Athens, Greece</option>
+                <option lon="19.0402" lat="47.4979">Budapest, Hungary</option>
+                <option lon="-21.8174" lat="64.1355">Reykjavik, Iceland</option>
+                <option lon="-6.2603" lat="53.3498">Dublin, Ireland</option>
+                <option lon="12.4964" lat="41.9028">Rome, Italy</option>
+                <option lon="71.4333" lat="51.1694">Nur-Sultan, Kazakhstan</option>
+                <option lon="21.1619" lat="42.6639">Pristina, Kosovo</option>
+                <option lon="24.1052" lat="56.9496">Riga, Latvia</option>
+                <option lon="9.5167" lat="47.1410">Vaduz, Liechtenstein</option>
+                <option lon="25.2799" lat="54.6872">Vilnius, Lithuania</option>
+                <option lon="6.1296" lat="49.6117">Luxembourg, Luxembourg</option>
+                <option lon="14.5146" lat="35.8989">Valletta, Malta</option>
+                <option lon="28.8575" lat="47.0105">Chisinau, Moldova</option>
+                <option lon="7.4246" lat="43.7384">Monaco, Monaco</option>
+                <option lon="19.2594" lat="42.4416">Podgorica, Montenegro</option>
+                <option lon="4.9041" lat="52.3676">Amsterdam, Netherlands</option>
+                <option lon="21.4316" lat="41.9981">Skopje, North Macedonia</option>
+                <option lon="10.7522" lat="59.9139">Oslo, Norway</option>
+                <option lon="21.0122" lat="52.2297">Warsaw, Poland</option>
+                <option lon="-9.1393" lat="38.7223">Lisbon, Portugal</option>
+                <option lon="26.1025" lat="44.4268">Bucharest, Romania</option>
+                <option lon="37.6173" lat="55.7558">Moscow, Russia</option>
+                <option lon="12.4574" lat="43.9333">San Marino, San Marino</option>
+                <option lon="20.4489" lat="44.7866">Belgrade, Serbia</option>
+                <option lon="17.1077" lat="48.1486">Bratislava, Slovakia</option>
+                <option lon="14.5058" lat="46.0569">Ljubljana, Slovenia</option>
+                <option lon="-3.7038" lat="40.4168">Madrid, Spain</option>
+                <option lon="18.0686" lat="59.3293">Stockholm, Sweden</option>
+                <option lon="7.4474" lat="46.9481">Bern, Switzerland</option>
+                <option lon="32.8597" lat="39.9334">Ankara, Turkey</option>
+                <option lon="30.5234" lat="50.4501">Kyiv, Ukraine</option>
+                <option lon="-0.1276" lat="51.5074">London, United Kingdom</option>
+                <option lon="12.4534" lat="41.9029">Vatican City, Vatican City</option>
+            </select>
+        </div>
+
+        <script src="js/main.js"></script>
+</body>
+
+<footer class="footer">
+    <p id="footer">© Copyright 2024 | Powered by 7Timer API</p>
+</footer>
